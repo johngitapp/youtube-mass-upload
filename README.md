@@ -5,7 +5,7 @@
 <ul>
   <li>Python 2.6 or greater.</li>
 
-<li>Pip package management tool.</li>
+<li>Pip package management tool to download dependencies.</li>
 
 <div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="pip install -r requirements.txt"><pre class="notranslate"><code>pip install -r requirements.txt
 </code></pre></div>
