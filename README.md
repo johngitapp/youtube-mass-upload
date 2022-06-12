@@ -7,7 +7,8 @@
 
 <li>Pip package management tool.</li>
 
-<li>Google APIs Client Library for Python.</li>
+<div class="snippet-clipboard-content notranslate position-relative overflow-auto" data-snippet-clipboard-copy-content="pip install -r requirements.txt"><pre class="notranslate"><code>pip install -r requirements.txt
+</code></pre></div>
   
 <li>Get client_secrets.json file from Google API Console.</li>
 
