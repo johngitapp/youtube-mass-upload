@@ -21,5 +21,5 @@ Application will upload multiple videos with thumbnails, video description, and 
 
 Refer to https://developers.google.com/youtube/v3/determine_quota_cost for API quota costs.
 
-Request quota extension if uploading more than 3+ videos per day: 
+Request quota extension if uploading more than 3+ videos per day:<br> 
 https://support.google.com/youtube/contact/yt_api_form?hl=en
