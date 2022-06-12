@@ -1,6 +1,6 @@
 # youtube-mass-upload
 
-<h1><b>Prerequisites</b></h1>:
+<h1><b>Prerequisites</b></h1>
 
 <ul>
   <li>Python 2.6 or greater.</li>
