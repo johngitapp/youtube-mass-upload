@@ -30,13 +30,13 @@ API_VERSION = 'v3'
 VALID_PRIVACY_STATUSES = ('public', 'private', 'unlisted')
 
 
-vidNames = [] #List of video/thumbnail names (mp3 & jpg files must have same filename)
+vidNames = [] #List of video/thumbnail names (mp4 & jpg files must have same filename)
 playId = "" #Playlist ID OPTIONAL
 descriptionV = "" # Video Description
 tagKeyWord = "" # Video Keywords
 
 vidDirectory = "" # Folder must consist of mp3/mov
-vidForm = "" # .mov / .mp3
+vidForm = "" # .mov / .mp4
 thumbnailDirectory = "" # Folder must consist of jpg/png
 thumbnailForm = "" # .jpg / .png
 
@@ -73,7 +73,7 @@ def upload_thumbnail(youtube, video_id, file):
 
 
 def get_authenticated_service():
-	# Auth
+	# Authenticate Step
 	flow = InstalledAppFlow.from_client_secrets_file(CLIENT_SECRETS_FILE, SCOPES)
 	credentials = flow.run_console()
 	return build(API_SERVICE_NAME, API_VERSION, credentials = credentials)
