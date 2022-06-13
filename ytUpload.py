@@ -35,7 +35,7 @@ playId = "" #Playlist ID OPTIONAL
 descriptionV = "" # Video Description
 tagKeyWord = "" # Video Keywords
 
-vidDirectory = "" # Folder must consist of mp3/mov
+vidDirectory = "" # Folder must consist of mp4/mov
 vidForm = "" # .mov / .mp4
 thumbnailDirectory = "" # Folder must consist of jpg/png
 thumbnailForm = "" # .jpg / .png
